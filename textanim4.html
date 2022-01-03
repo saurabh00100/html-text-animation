@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+ <head>
+<style>
+h1{
+  animation: type 3s steps(22) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 22ch;
+  border-right: 4px solid black;
+  font-family: monospace;
+  font-size: 50px;
+  background: -webkit-linear-gradient(90deg, rgba(34,103,195,1) 0%
+, rgba(186,255,78,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes type{
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 22ch;
+  }
+}
+
+p{
+  animation: next 3s steps(8) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 7ch;
+  text-align:center;
+  font-family: monospace;
+  font-size: 40px;
+  border-right: 2px solid black;
+  background: -webkit-linear-gradient(90deg, rgba(34,103,195,1) 0%
+, rgba(186,255,78,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes next{
+  0% {
+    width: 0ch;
+    
+  }
+  100% {
+    width: 8ch;
+  }
+};
+
+</style>
+
+
+ </head>
+ <body> 
+  <h1> text typing animation. </h1> 
+  <p>Saurabh</p> 
+ </body>
+</html>
